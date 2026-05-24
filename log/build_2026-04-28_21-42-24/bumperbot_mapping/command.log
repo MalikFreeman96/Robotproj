@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_mapping -- -j6 -l6
+Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_mapping -- -j6 -l6

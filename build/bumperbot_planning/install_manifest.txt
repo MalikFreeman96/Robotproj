@@ -1,0 +1,15 @@
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+/home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml

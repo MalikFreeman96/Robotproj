@@ -1,0 +1,58 @@
+[0.022s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_mapping -- -j1 -l1
+[0.111s] [100%] Built target mapping_with_known_poses
+[0.154s] [100%] Built target ament_cmake_python_copy_bumperbot_mapping
+[0.334s] running egg_info
+[0.345s] writing bumperbot_mapping.egg-info/PKG-INFO
+[0.357s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[0.358s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[0.392s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.394s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.417s] [100%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[0.426s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_mapping -- -j1 -l1
+[0.429s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/bumperbot_ws/build/bumperbot_mapping
+[0.438s] -- Install configuration: ""
+[0.440s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[0.440s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[0.440s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info
+[0.441s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.441s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+[0.441s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.441s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+[0.441s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping
+[0.442s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+[0.443s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+[0.479s] Listing '/home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+[0.483s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/include/include
+[0.483s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[0.484s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[0.486s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[0.486s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[0.487s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[0.487s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[0.488s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[0.488s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[0.489s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[0.499s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[0.499s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[0.499s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+[0.500s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+[0.500s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm
+[0.500s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+[0.502s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[0.502s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[0.503s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[0.503s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[0.503s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[0.503s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[0.503s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[0.504s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[0.504s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[0.504s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[0.504s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[0.504s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[0.504s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[0.505s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[0.505s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[0.506s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[0.506s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[0.507s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/bumperbot_ws/build/bumperbot_mapping

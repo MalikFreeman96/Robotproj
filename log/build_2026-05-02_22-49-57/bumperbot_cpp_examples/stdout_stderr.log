@@ -1,0 +1,42 @@
+[  3%] [32m[1mLinking CXX executable simple_service_server[0m
+[ 10%] Built target simple_subscriber
+[ 14%] [32m[1mLinking CXX executable simple_service_client[0m
+[ 25%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[ 25%] Built target simple_publisher
+[ 32%] Built target simple_parameter
+[ 39%] Built target simple_turtlesim_kinematics
+[ 46%] Built target simple_lifecycle_node
+[ 53%] Built target simple_qos_publisher
+[ 60%] Built target simple_qos_subscriber
+[ 64%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/simple_action_client_node.dir/rclcpp_components/node_main_simple_action_client_node.cpp.o[0m
+/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+collect2: error: ld returned 1 exit status
+/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:199: simple_service_client] Error 1
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/simple_service_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:199: simple_service_server] Error 1
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/simple_service_server.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:216: simple_tf_kinematics] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[ 78%] [32m[1mLinking CXX executable simple_action_client_node[0m
+[ 82%] [32m[1mLinking CXX executable simple_action_server_node[0m
+[ 82%] Built target simple_action_client_node
+[ 82%] Built target simple_action_server_node
+[ 85%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:213: libsimple_action_server.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/simple_action_server.dir/all] Error 2
+[ 89%] [32m[1mLinking CXX shared library libsimple_action_client.so[0m
+/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:213: libsimple_action_client.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/simple_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,44 @@
+[0.035s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_cpp_examples -- -j7 -l7
+[0.484s] [  3%] [32m[1mLinking CXX executable simple_service_server[0m
+[0.484s] [ 10%] Built target simple_subscriber
+[0.484s] [ 14%] [32m[1mLinking CXX executable simple_service_client[0m
+[0.484s] [ 25%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[0.484s] [ 25%] Built target simple_publisher
+[0.484s] [ 32%] Built target simple_parameter
+[0.484s] [ 39%] Built target simple_turtlesim_kinematics
+[0.484s] [ 46%] Built target simple_lifecycle_node
+[0.484s] [ 53%] Built target simple_qos_publisher
+[0.485s] [ 60%] Built target simple_qos_subscriber
+[0.487s] [ 64%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[0.487s] [ 67%] [32mBuilding CXX object CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.o[0m
+[0.487s] [ 71%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[0.487s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_action_client_node.dir/rclcpp_components/node_main_simple_action_client_node.cpp.o[0m
+[0.488s] /home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+[0.489s] collect2: error: ld returned 1 exit status
+[0.489s] /home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+[0.489s] gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:199: simple_service_client] Error 1
+[0.489s] collect2: error: ld returned 1 exit status
+[0.489s] gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/simple_service_client.dir/all] Error 2
+[0.489s] gmake[1]: *** Waiting for unfinished jobs....
+[0.489s] /home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+[0.489s] gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:199: simple_service_server] Error 1
+[0.489s] collect2: error: ld returned 1 exit status
+[0.489s] gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/simple_service_server.dir/all] Error 2
+[0.489s] gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:216: simple_tf_kinematics] Error 1
+[0.489s] gmake[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[4.039s] [ 78%] [32m[1mLinking CXX executable simple_action_client_node[0m
+[4.070s] [ 82%] [32m[1mLinking CXX executable simple_action_server_node[0m
+[4.267s] [ 82%] Built target simple_action_client_node
+[4.271s] [ 82%] Built target simple_action_server_node
+[5.032s] [ 85%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+[5.055s] /home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+[5.055s] collect2: error: ld returned 1 exit status
+[5.057s] gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:213: libsimple_action_server.so] Error 1
+[5.059s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/simple_action_server.dir/all] Error 2
+[5.126s] [ 89%] [32m[1mLinking CXX shared library libsimple_action_client.so[0m
+[5.151s] /home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+[5.153s] collect2: error: ld returned 1 exit status
+[5.155s] gmake[2]: *** [CMakeFiles/simple_action_client.dir/build.make:213: libsimple_action_client.so] Error 1
+[5.155s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/simple_action_client.dir/all] Error 2
+[5.156s] gmake: *** [Makefile:146: all] Error 2
+[5.158s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_cpp_examples -- -j7 -l7

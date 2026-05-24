@@ -1,0 +1,23 @@
+[0.038s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_firmware -- -j6 -l6
+[0.252s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.288s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[0.323s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[0.323s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[1.253s] running egg_info
+[1.254s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.254s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.254s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.392s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.392s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.599s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[408.839s] [01m[K/home/vboxuser/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual bumperbot_firmware::CallbackReturn bumperbot_firmware::BumperbotInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[409.183s] [01m[K/home/vboxuser/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:32:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[409.310s]    32 |   CallbackReturn result = [01;35m[Khardware_interface::SystemInterface::on_init(hardware_info)[m[K;
+[409.392s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[410.162s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[410.221s]                  from [01m[K/home/vboxuser/bumperbot_ws/src/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp:5[m[K,
+[410.221s]                  from [01m[K/home/vboxuser/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:1[m[K:
+[410.221s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[410.221s]   140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+[410.221s]       |                          [01;36m[K^~~~~~~[m[K
+[423.114s] [ 66%] [32m[1mLinking CXX executable simple_serial_receiver[0m

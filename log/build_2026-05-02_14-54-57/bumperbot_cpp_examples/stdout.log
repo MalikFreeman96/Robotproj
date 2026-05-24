@@ -1,0 +1,16 @@
+[  7%] Built target simple_parameter
+[ 17%] Built target simple_publisher
+[ 17%] [32m[1mLinking CXX executable simple_service_server[0m
+[ 21%] [32m[1mLinking CXX executable simple_service_client[0m
+[ 28%] Built target simple_turtlesim_kinematics
+[ 35%] Built target simple_subscriber
+[ 39%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/simple_qos_subscriber.dir/src/simple_qos_subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_qos_publisher.dir/src/simple_qos_publisher.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable simple_qos_publisher[0m
+[ 53%] Built target simple_qos_publisher
+[ 57%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[ 60%] [32m[1mLinking CXX executable simple_qos_subscriber[0m
+[ 60%] Built target simple_lifecycle_node
+[ 60%] Built target simple_qos_subscriber

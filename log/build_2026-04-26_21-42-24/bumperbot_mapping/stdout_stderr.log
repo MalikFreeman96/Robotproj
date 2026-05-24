@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping/ament_cmake_python/bumperbot_mapping/bumperbot_mapping' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_bumperbot_mapping.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_bumperbot_mapping] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/ament_cmake_python_symlink_bumperbot_mapping.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 50%] [32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o[0m

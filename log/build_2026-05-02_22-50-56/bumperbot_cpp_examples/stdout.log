@@ -1,0 +1,14 @@
+[  7%] Built target simple_parameter
+[ 14%] Built target simple_subscriber
+[ 17%] [32m[1mLinking CXX executable simple_service_server[0m
+[ 21%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[ 28%] Built target simple_publisher
+[ 32%] [32m[1mLinking CXX executable simple_service_client[0m
+[ 39%] Built target simple_turtlesim_kinematics
+[ 46%] Built target simple_lifecycle_node
+[ 53%] Built target simple_qos_publisher
+[ 60%] Built target simple_qos_subscriber
+[ 67%] Built target simple_action_server_node
+[ 71%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+[ 75%] [32m[1mLinking CXX shared library libsimple_action_client.so[0m
+[ 82%] Built target simple_action_client_node

@@ -1,0 +1,30 @@
+[  7%] Built target simple_parameter
+[ 17%] Built target simple_publisher
+[ 17%] [32m[1mLinking CXX executable simple_service_server[0m
+[ 21%] [32m[1mLinking CXX executable simple_service_client[0m
+[ 28%] Built target simple_turtlesim_kinematics
+[ 35%] Built target simple_subscriber
+[ 39%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/simple_qos_subscriber.dir/src/simple_qos_subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_qos_publisher.dir/src/simple_qos_publisher.cpp.o[0m
+/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+: file not recognized: file format not recognized
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:199: simple_service_server] Error 1
+gmake[2]: *** [CMakeFiles/simple_service_client.dir/build.make:199: simple_service_client] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/simple_service_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/simple_service_server.dir/all] Error 2
+/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so: file not recognized: file format not recognized
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:216: simple_tf_kinematics] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[ 53%] [32m[1mLinking CXX executable simple_qos_publisher[0m
+[ 53%] Built target simple_qos_publisher
+[ 57%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[ 60%] [32m[1mLinking CXX executable simple_qos_subscriber[0m
+[ 60%] Built target simple_lifecycle_node
+[ 60%] Built target simple_qos_subscriber
+gmake: *** [Makefile:146: all] Error 2

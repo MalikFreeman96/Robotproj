@@ -1,0 +1,42 @@
+[0.060s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/bumperbot_ws/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/home/vboxuser/bumperbot_ws/install/bumperbot_planning
+[0.605s] -- The C compiler identification is GNU 13.3.0
+[0.880s] -- The CXX compiler identification is GNU 13.3.0
+[0.881s] -- Detecting C compiler ABI info
+[1.043s] -- Detecting C compiler ABI info - done
+[1.048s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.048s] -- Detecting C compile features
+[1.048s] -- Detecting C compile features - done
+[1.063s] -- Detecting CXX compiler ABI info
+[1.257s] -- Detecting CXX compiler ABI info - done
+[1.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.271s] -- Detecting CXX compile features
+[1.271s] -- Detecting CXX compile features - done
+[1.275s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.449s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.588s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.707s] -- Added test 'lint_cmake' to check CMake code style
+[1.713s] -- Added test 'xmllint' to check XML markup files
+[1.716s] -- Configuring done (1.6s)
+[1.721s] -- Generating done (0.0s)
+[1.729s] -- Build files have been written to: /home/vboxuser/bumperbot_ws/build/bumperbot_planning
+[1.735s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vboxuser/bumperbot_ws/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/home/vboxuser/bumperbot_ws/install/bumperbot_planning
+[1.736s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_planning -- -j7 -l7
+[1.776s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_planning -- -j7 -l7
+[1.777s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/bumperbot_ws/build/bumperbot_planning
+[1.785s] -- Install configuration: ""
+[1.786s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[1.787s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[1.787s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[1.787s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[1.788s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[1.788s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[1.788s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[1.788s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[1.788s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[1.788s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[1.789s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[1.789s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[1.789s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[1.789s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[1.789s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[1.792s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/bumperbot_ws/build/bumperbot_planning

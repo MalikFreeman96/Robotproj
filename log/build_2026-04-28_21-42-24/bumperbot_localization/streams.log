@@ -1,0 +1,74 @@
+[0.040s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_localization -- -j6 -l6
+[0.316s] [  0%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.469s] [ 16%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[0.469s] [ 33%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[0.489s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[0.691s] running egg_info
+[0.696s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.702s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.702s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.766s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.766s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.803s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[17.479s] [ 66%] [32m[1mLinking CXX executable odometry_motion_model[0m
+[18.614s] [ 83%] [32m[1mLinking CXX executable imu_republisher[0m
+[19.454s] [ 83%] Built target imu_republisher
+[19.589s] [ 83%] Built target odometry_motion_model
+[20.987s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[21.969s] [100%] Built target kalman_filter
+[22.068s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_localization -- -j6 -l6
+[22.075s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/bumperbot_ws/build/bumperbot_localization
+[22.095s] -- Install configuration: ""
+[22.097s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[22.100s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[22.102s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info
+[22.103s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[22.103s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[22.103s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[22.103s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+[22.104s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization
+[22.104s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+[22.105s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+[22.105s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+[22.108s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py
+[22.191s] Listing '/home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+[22.205s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/include/include
+[22.205s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[22.206s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[22.206s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[22.211s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/bin/odometry_motion_model
+[22.216s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/bumperbot_ws/install/bumperbot_localization/bin/odometry_motion_model" to ""
+[22.226s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[22.232s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter" to ""
+[22.235s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[22.246s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher" to ""
+[22.250s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[22.250s] -- Set non-toolchain portion of runtime path of "/home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model" to ""
+[22.251s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[22.252s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[22.252s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[22.252s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[22.254s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/odometry_motion_model.rviz
+[22.255s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[22.255s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[22.255s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz
+[22.256s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz/global_localization.rviz
+[22.256s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[22.257s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[22.257s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[22.267s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[22.267s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[22.267s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[22.267s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[22.267s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[22.267s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[22.268s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[22.268s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[22.268s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[22.268s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[22.268s] -- Installing: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[22.268s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[22.269s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[22.270s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[22.270s] -- Up-to-date: /home/vboxuser/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[22.368s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vboxuser/bumperbot_ws/build/bumperbot_localization

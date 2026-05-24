@@ -1,0 +1,10 @@
+[0.057s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_mapping -- -j6 -l6
+[0.252s] failed to create symbolic link '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping/ament_cmake_python/bumperbot_mapping/bumperbot_mapping' because existing path cannot be removed: Is a directory
+[0.265s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_bumperbot_mapping.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_bumperbot_mapping] Error 1
+[0.266s] gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/ament_cmake_python_symlink_bumperbot_mapping.dir/all] Error 2
+[0.266s] gmake[1]: *** Waiting for unfinished jobs....
+[0.428s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o[0m
+[21.000s] [100%] [32m[1mLinking CXX executable mapping_with_known_poses[0m
+[22.144s] gmake: *** [Makefile:146: all] Error 2
+[22.178s] [100%] Built target mapping_with_known_poses
+[22.465s] Invoked command in '/home/vboxuser/bumperbot_ws/build/bumperbot_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_mapping -- -j6 -l6

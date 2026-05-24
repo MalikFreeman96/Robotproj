@@ -1,0 +1,12 @@
+[0.032s] Invoking command in '/home/vboxuser/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vboxuser/bumperbot_ws/build/bumperbot_localization -- -j6 -l6
+[0.197s] [ 16%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[0.197s] [ 33%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[0.208s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[0.276s] [ 50%] Built target ament_cmake_python_copy_bumperbot_localization
+[1.709s] running egg_info
+[1.867s] writing bumperbot_localization.egg-info/PKG-INFO
+[1.868s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[1.868s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[2.157s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.169s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[2.512s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
