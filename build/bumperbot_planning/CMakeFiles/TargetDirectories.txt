@@ -1,5 +1,7 @@
 /home/vboxuser/bumperbot_ws/build/bumperbot_planning/CMakeFiles/uninstall.dir
 /home/vboxuser/bumperbot_ws/build/bumperbot_planning/CMakeFiles/bumperbot_planning_uninstall.dir
+/home/vboxuser/bumperbot_ws/build/bumperbot_planning/CMakeFiles/ament_cmake_python_copy_bumperbot_planning.dir
+/home/vboxuser/bumperbot_ws/build/bumperbot_planning/CMakeFiles/ament_cmake_python_build_bumperbot_planning_egg.dir
 /home/vboxuser/bumperbot_ws/build/bumperbot_planning/CMakeFiles/test.dir
 /home/vboxuser/bumperbot_ws/build/bumperbot_planning/CMakeFiles/edit_cache.dir
 /home/vboxuser/bumperbot_ws/build/bumperbot_planning/CMakeFiles/rebuild_cache.dir

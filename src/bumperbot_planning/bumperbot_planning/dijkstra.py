@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from os import path
+
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, DurabilityPolicy
@@ -79,13 +81,13 @@ class DijkstraPlanner(Node):
                     self.logger().info.warn("No path found")
                 
         def plan(self, start, goal):
-            explored_directions = [{-1,0}, {1,0}, {0,-1}, {0,1}] #4-connected grid
-            pending_nodes = PriorityQueue() #priority queue for pending nodes
-            visited_nodes = set()             #set for visited nodes
-            start_node = self.world_to_grid(start) #convert start and goal to grid coordinates
-            pending_nodes.put(start_node) #add start node to pending nodes
+                explored_directions = [{-1,0}, {1,0}, {0,-1}, {0,1}] #4-connected grid
+                pending_nodes = PriorityQueue() #priority queue for pending nodes
+                visited_nodes = set()             #set for visited nodes
+                start_node = self.world_to_grid(start) #convert start and goal to grid coordinates
+                pending_nodes.put(start_node) #add start node to pending nodes
 
-            while not pending_nodes.empty() and rclpy.ok():
+                while not pending_nodes.empty() and rclpy.ok():
                   active_node = pending_nodes.get() #get node with lowest cost from pending nodes
                   if active_node == self.world_to_grid(goal):
                         break #if we reached the goal, break out of the loop
@@ -96,7 +98,30 @@ class DijkstraPlanner(Node):
                                 new_node.prev = active_node #set previous node of new node to active node
                                 pending_nodes.put(new_node) #add new node to pending nodes
                                 visited_nodes.add(new_node) #add new node to visited nodes
-                  self.visited_map.data[self.pose_to_cell(active_node)] = 100 #mark active node as visited in visited map
+                  self.visited_map.data[self.pose_to_cell(active_node)] = 10 #mark active node as visited in visited map
+                  self.map_pub.publish(self.visited_map_) #publish visited map for visualization
+        
+                path = Path() #create path message to publish the final path
+                path.header.frame_id = self.map_.header.frame_id #set frame id of path to map frame id
+                while active_node and active_node.prev and rclpy.ok(): #backtrack from goal to start to create path
+                        last_post: Pose = self.grid_to_world(active_node) #convert grid coordinates to world coordinates
+                        last_post_stamped = PoseStamped() #create PoseStamped message for path
+                        last_post_stamped.header.frame_id = self.map_.header.frame_id #set frame id of PoseStamped to map frame id
+                        last_post_stamped.pose = last_post
+                        path.poses.append(last_post_stamped) #add PoseStamped to path
+                        active_node = active_node.prev #move to previous node
+                
+                path.poses.reverse() #reverse path to get correct order from start to goal
+                return path #return the final path message
+
+
+        def grid_to_world(self, node: GraphNode) -> Pose:
+                """Converts grid coordinates to world coordinates"""
+                pose = Pose()
+                pose.position.x = node.x * self.map_.info.resolution + self.map_.info.origin.position.x #convert grid x to world x and add half cell size to center the pose in the 
+                pose.position.y = node.y * self.map_.info.resolution + self.map_.info.origin.position.y #convert grid y to world y and add half cell size to center the pose in the cell
+                return pose #return the pose in world coordinates
+
                   
                 
                         
